@@ -33,7 +33,7 @@ COPY --from=build /app/node_modules/ ./node_modules/
 
 ENV NODE_ENV=production
 
-vest-volume /app/data
+VEST-VOLUME /app/data
 
 EXPOSE 3000
 
